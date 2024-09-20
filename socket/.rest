@@ -1,0 +1,23 @@
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+   "username": "edski",
+   "password": "pass"
+}
+ 
+
+###
+ POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+   "username": "edski",
+   "password": "pass"
+}
+
+
+###
+GET  http://localhost:5000/currentUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmViN2NjZTM4NDI5ZTc1ZGQ3YmNjMDgiLCJpYXQiOjE3MjY3MDg5NDIsImV4cCI6MTcyNjcxMjU0Mn0.EegH40S0w8xK40Dc7LTmCevNDKor9u0dUkSvd_TVDPk
